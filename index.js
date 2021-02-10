@@ -31,7 +31,12 @@ const userInput = () => {
       {
         type: "input",
         name: "userName",
-        message: "Please enter your GitHub user name: "
+        message: "Please enter contributor's name: "
+      },
+      {
+        type: "input",
+        name: "userGit",
+        message: "Please enter contributor's GitHub user name: "
       },
     ]);
 };

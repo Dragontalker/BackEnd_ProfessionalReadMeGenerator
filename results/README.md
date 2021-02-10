@@ -1,7 +1,7 @@
-# a
+# README generator
   
   ## Description
-  a
+  Creating readme
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -17,7 +17,7 @@
   In console, type: "npm install" to install the required modules.
 
   ## Usage
-  a
+  Generating readme
 
-  ## GitHub URL
-  https://github.com/a
+  ## Credits
+  Author: Richard Yang, visit GitHub Page at https://github.com/dragontalker

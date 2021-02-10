@@ -33,8 +33,8 @@ const generateMarkdown = (data) => {
   ## Usage
   ${data.usage}
 
-  ## GitHub URL
-  https://github.com/${data.userName}
+  ## Credits
+  Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
 `;
 }
 
