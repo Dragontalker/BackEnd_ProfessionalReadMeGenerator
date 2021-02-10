@@ -41,7 +41,8 @@ const renderLicenseSection = (license) => {
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
   return `# ${data.title}
-  
+  ${renderLicenseSection(data.license)}
+
   ## Description
   ${data.description}
 
@@ -63,9 +64,8 @@ const generateMarkdown = (data) => {
 
   ## Credits
   Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
-
-  ## Badges
-  ${renderLicenseSection(data.license)}
+  
+  
 `;
 }
 
