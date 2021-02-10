@@ -11,10 +11,10 @@
   * [Contribution](#Contribution)
   * [Test](#Test)
   
-  ## Installation Instructions
+  ## Installation
   In console, type: "npm install" to install the required modules.
 
-  ## Usage Information
+  ## Usage
   In console, type: "node index.js" to initiate the application.
 
   ## Credits

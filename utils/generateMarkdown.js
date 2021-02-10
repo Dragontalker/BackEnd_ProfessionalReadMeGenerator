@@ -53,19 +53,19 @@ const generateMarkdown = (data) => {
   * [Contribution](#Contribution)
   * [Test](#Test)
   
-  ## Installation Instructions
+  ## Installation
   In console, type: "${data.installation}" to install the required modules.
 
-  ## Usage Information
+  ## Usage
   In console, type: "${data.usage}" to initiate the application.
 
   ## Credits
   Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
 
-  ## Contribution Rules
+  ## Contribution
   ${data.contribution}
 
-  ## Test Instructions
+  ## Test
   ${data.test}
   
 `;
