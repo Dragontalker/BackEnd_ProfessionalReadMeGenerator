@@ -18,14 +18,14 @@ const generateMarkdown = (data) => {
   ${data.description}
 
   ## Table of Contents
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Credits](#Credits)
-  [License](#License)
-  [Badges](#Badges)
-  [Features](#Features)
-  [Contributing](#Contributing)
-  [Test](#Test)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Credits)
+  * [License](#License)
+  * [Badges](#Badges)
+  * [Features](#Features)
+  * [Contributing](#Contributing)
+  * [Test](#Test)
 
   ## GitHub URL
   https://github.com/${data.userName}
