@@ -13,6 +13,16 @@ const userInput = () => {
         name: "title",
         message: "Please enter the title of your project: "
       },
+      {
+        type: "input",
+        name: "description",
+        message: "Please enter the description of your project: "
+      },
+      {
+        type: "input",
+        name: "userName",
+        message: "Please enter your GitHub user name: "
+      },
     ]);
 };
 

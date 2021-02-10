@@ -1,7 +1,7 @@
-# Project: ReadME generator
+# Project: README generator
   
   # Description
-  undefined
+  creating new markdown file
 
   # GitHub URL
-  https://github.com/undefined
+  https://github.com/dragontalker
