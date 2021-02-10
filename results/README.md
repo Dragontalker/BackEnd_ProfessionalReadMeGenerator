@@ -1,8 +1,8 @@
-# Professinal README Generator
+# Professional README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  A node.js application that takes user inputs and generates a professional README markdown file.
+  A node.js application that takes user inputs and generates a professional markdown README file.
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -23,8 +23,8 @@
   * Or visit my GitHub page at https://github.com/dragontalker
 
   ## Contribution
-  Use pull request.
+  Use pull request
 
   ## Test
-  Check results folder after running the application in node.
+  Check results folder after initiallizing the application.
   
