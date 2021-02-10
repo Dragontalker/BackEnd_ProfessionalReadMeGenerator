@@ -54,15 +54,15 @@ const generateMarkdown = (data) => {
   * [Test](#Test)
   
   ## Installation
-  In console, type: "${data.installation}" to install the required modules.
+  In console, type: "*${data.installation}*" to install the required modules.
 
   ## Usage
-  In console, type: "${data.usage}" to initiate the application.
+  In console, type: "*${data.usage}*" to initiate the application.
 
   ## Credits
-  Author: ${data.userName} 
-  For additional questions, contact me at ${data.email}
-  Or visit my GitHub page at https://github.com/${data.userGit}
+  Author: *${data.userName}*
+  * For additional questions, contact me at ${data.email}
+  * Or visit my GitHub page at https://github.com/${data.userGit}
 
   ## Contribution
   ${data.contribution}
