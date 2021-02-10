@@ -9,6 +9,8 @@ const renderLicenseBadge = (license) => {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   } else if (license === "MPL-2.0") {
     return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
+  } else {
+    return "";
   }
 }
 
@@ -23,6 +25,8 @@ const renderLicenseLink = (license) => {
     return "https://opensource.org/licenses/MIT";
   } else if (license === "MPL-2.0") {
     return "(https://opensource.org/licenses/MPL-2.0)";
+  } else {
+    return "";
   }
 }
 
