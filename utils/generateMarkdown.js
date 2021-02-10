@@ -7,6 +7,8 @@ const renderLicenseBadge = (license) => {
     return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
   } else if (license === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+  } else if (license === "MPL-2.0") {
+    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
   }
 }
 
@@ -19,6 +21,8 @@ const renderLicenseLink = (license) => {
     return "https://opensource.org/licenses/ISC";
   } else if (license === "MIT") {
     return "https://opensource.org/licenses/MIT";
+  } else if (license === "MPL-2.0") {
+    return "(https://opensource.org/licenses/MPL-2.0)";
   }
 }
 
@@ -60,6 +64,7 @@ const generateMarkdown = (data) => {
   ${renderLicenseSection("Apache-2.0")}
   ${renderLicenseSection("ISC")}
   ${renderLicenseSection("MIT")}
+  ${renderLicenseSection("MPL-2.0")}
 `;
 }
 
