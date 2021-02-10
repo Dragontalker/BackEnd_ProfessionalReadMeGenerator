@@ -9,9 +9,9 @@ const writeFileAsync = util.promisify(fs.writeFile);
 const userInput = () => {
     return inquirer.prompt([
       {
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?'
+        type: "input",
+        name: "title",
+        message: "Please enter the title of your project: "
       },
     ]);
 };
