@@ -14,10 +14,20 @@ function renderLicenseSection(license) {}
 const generateMarkdown = (data) => {
   return `# Project: ${data.title}
   
-  # Description
+  ## Description
   ${data.description}
 
-  # GitHub URL
+  ## Table of Contents
+  [Installation](#Installation)
+  [Usage](#Usage)
+  [Credits](#Credits)
+  [License](#License)
+  [Badges](#Badges)
+  [Features](#Features)
+  [Contributing](#Contributing)
+  [Test](#Test)
+
+  ## GitHub URL
   https://github.com/${data.userName}
 `;
 }
