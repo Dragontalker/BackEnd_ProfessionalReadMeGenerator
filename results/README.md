@@ -1,7 +1,7 @@
-# Project: Test
+# ProjectTitle
   
   ## Description
-  Testing
+  ProjectDescription
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -12,6 +12,9 @@
   * [Features](#Features)
   * [Contributing](#Contributing)
   * [Test](#Test)
+  
+  ## Usage
+  ProjectUsage
 
   ## GitHub URL
-  https://github.com/TestTest
+  https://github.com/dragontalker

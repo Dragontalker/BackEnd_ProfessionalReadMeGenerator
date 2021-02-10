@@ -20,6 +20,11 @@ const userInput = () => {
       },
       {
         type: "input",
+        name: "usage",
+        message: "Please enter the usege of your project: "
+      },
+      {
+        type: "input",
         name: "userName",
         message: "Please enter your GitHub user name: "
       },
