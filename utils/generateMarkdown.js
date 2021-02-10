@@ -60,7 +60,9 @@ const generateMarkdown = (data) => {
   In console, type: "${data.usage}" to initiate the application.
 
   ## Credits
-  Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
+  Author: ${data.userName} 
+  For additional questions, contact me at ${data.email}
+  Or visit my GitHub page at https://github.com/${data.userGit}
 
   ## Contribution
   ${data.contribution}

@@ -15,24 +15,8 @@ const userInput = () => {
         },
         {
             type: "input",
-            name: "userGit",
-            message: "Please enter your GitHub user name: "
-        },
-        {
-            type: "input",
             name: "title",
             message: "Please enter the title of your project: "
-        },
-        {
-            type: "list",
-            name: "license",
-            message: "Please select the license used for this project: ",
-            choices: [
-                "Apache-2.0",
-                "ISC",
-                "MIT",
-                "MPL-2.0",
-            ],
         },
         {
             type: "input",
@@ -58,6 +42,27 @@ const userInput = () => {
             type: "input",
             name: "test",
             message: "Please enter the test instructions: "
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "Please select the license used for this project: ",
+            choices: [
+                "Apache-2.0",
+                "ISC",
+                "MIT",
+                "MPL-2.0",
+            ],
+        },
+        {
+            type: "input",
+            name: "userGit",
+            message: "Please enter your GitHub user name: "
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your E-mail address: "
         },
     ]);
 };
