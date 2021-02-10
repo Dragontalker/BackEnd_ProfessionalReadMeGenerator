@@ -8,47 +8,48 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 const userInput = () => {
     return inquirer.prompt([
-      {
-        type: "input",
-        name: "title",
-        message: "Please enter the title of your project: "
-      },
-      {
-        type: "input",
-        name: "description",
-        message: "Please enter the description of your project: "
-      },
-      {
-        type: "input",
-        name: "installation",
-        message: "Please enter the commands for installing NPM modules (Ex. npm install): "
-      },
-      {
-        type: "input",
-        name: "usage",
-        message: "Please enter the usege of your project: "
-      },
-      {
-        type: "list",
-        name: "license",
-        message: "Please select the license used for this project: ",
-        choices: [
-            "Apache-2.0",
-            "ISC",
-            "MIT",
-            "MPL-2.0",
-        ],
-      },
-      {
-        type: "input",
-        name: "userName",
-        message: "Please enter contributor's name: "
-      },
-      {
-        type: "input",
-        name: "userGit",
-        message: "Please enter contributor's GitHub user name: "
-      },
+        {
+            type: "input",
+            name: "userName",
+            message: "Please enter your name: "
+        },
+        {
+            type: "input",
+            name: "userGit",
+            message: "Please enter your GitHub user name: "
+        },
+        {
+            type: "input",
+            name: "title",
+            message: "Please enter the title of your project: "
+        },
+        {
+            type: "input",
+            name: "description",
+            message: "Please enter the description of your project: "
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "Please enter the commands for installing NPM modules (ie. npm install): "
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Please enter the usege of your project (ie: node index.js): "
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "Please select the license used for this project: ",
+            choices: [
+                "Apache-2.0",
+                "ISC",
+                "MIT",
+                "MPL-2.0",
+            ],
+        },
+        
     ]);
 };
 
