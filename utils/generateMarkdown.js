@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
   if (license === "Apache-2.0") {
-    return "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
   }
 }
 
@@ -19,7 +19,7 @@ const renderLicenseLink = (license) => {
 const renderLicenseSection = (license) => {
   let badge = renderLicenseBadge(license);
   let link = renderLicenseLink(license);
-  return `[![License](${badge})](${link})`;
+  return `${badge}(${link})`;
 }
 
 // TODO: Create a function to generate markdown for README
