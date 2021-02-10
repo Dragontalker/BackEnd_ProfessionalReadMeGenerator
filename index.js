@@ -3,6 +3,9 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Creating writeFile function using promises instead of a callback function.
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
