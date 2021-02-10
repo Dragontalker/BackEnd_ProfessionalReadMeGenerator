@@ -5,6 +5,8 @@ const renderLicenseBadge = (license) => {
     return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
   } else if (license === "ISC") {
     return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
+  } else if (license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   }
 }
 
@@ -15,6 +17,8 @@ const renderLicenseLink = (license) => {
     return "https://opensource.org/licenses/Apache-2.0";
   } else if (license === "ISC") {
     return "https://opensource.org/licenses/ISC";
+  } else if (license === "MIT") {
+    return "https://opensource.org/licenses/MIT";
   }
 }
 
@@ -55,6 +59,7 @@ const generateMarkdown = (data) => {
   ## Badges
   ${renderLicenseSection("Apache-2.0")}
   ${renderLicenseSection("ISC")}
+  ${renderLicenseSection("MIT")}
 `;
 }
 
