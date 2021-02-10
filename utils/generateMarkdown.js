@@ -27,6 +27,9 @@ const generateMarkdown = (data) => {
   * [Contributing](#Contributing)
   * [Test](#Test)
   
+  ## Installation
+  In console, type: "${data.installation}" to install the required modules.
+
   ## Usage
   ${data.usage}
 

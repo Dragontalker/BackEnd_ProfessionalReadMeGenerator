@@ -20,6 +20,11 @@ const userInput = () => {
       },
       {
         type: "input",
+        name: "installation",
+        message: "Please enter the commands for installing NPM modules (Ex. npm install): "
+      },
+      {
+        type: "input",
         name: "usage",
         message: "Please enter the usege of your project: "
       },

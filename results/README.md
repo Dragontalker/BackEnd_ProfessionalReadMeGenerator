@@ -1,7 +1,7 @@
-# ProjectTitle
+# a
   
   ## Description
-  ProjectDescription
+  a
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -13,8 +13,11 @@
   * [Contributing](#Contributing)
   * [Test](#Test)
   
+  ## Installation
+  In console, type: "npm install" to install the required modules.
+
   ## Usage
-  ProjectUsage
+  a
 
   ## GitHub URL
-  https://github.com/dragontalker
+  https://github.com/a
