@@ -3,6 +3,8 @@
 const renderLicenseBadge = (license) => {
   if (license === "Apache-2.0") {
     return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+  } else if (license === "ISC") {
+    return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
   }
 }
 
@@ -11,6 +13,8 @@ const renderLicenseBadge = (license) => {
 const renderLicenseLink = (license) => {
   if (license === "Apache-2.0") {
     return "https://opensource.org/licenses/Apache-2.0";
+  } else if (license === "ISC") {
+    return "https://opensource.org/licenses/ISC";
   }
 }
 
@@ -50,6 +54,7 @@ const generateMarkdown = (data) => {
 
   ## Badges
   ${renderLicenseSection("Apache-2.0")}
+  ${renderLicenseSection("ISC")}
 `;
 }
 
