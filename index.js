@@ -13,7 +13,12 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    userInput()
+      .then((answers) => writeFileAsync('./results/result.md', generateMarkdown(answers)))
+      .then(() => console.log('Successfully created your professional README file!'))
+      .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
