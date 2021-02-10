@@ -1,7 +1,7 @@
-# README generator
+# a
   
   ## Description
-  Creating readme
+  a
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -14,10 +14,13 @@
   * [Test](#Test)
   
   ## Installation
-  In console, type: "npm install" to install the required modules.
+  In console, type: "a" to install the required modules.
 
   ## Usage
-  Generating readme
+  a
 
   ## Credits
-  Author: Richard Yang, visit GitHub Page at https://github.com/dragontalker
+  Author: a, visit GitHub Page at https://github.com/a
+
+  ## Badges
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
