@@ -24,21 +24,6 @@ const userInput = () => {
             message: "Please enter the title of your project: "
         },
         {
-            type: "input",
-            name: "description",
-            message: "Please enter the description of your project: "
-        },
-        {
-            type: "input",
-            name: "installation",
-            message: "Please enter the commands for installing NPM modules (ie. npm install): "
-        },
-        {
-            type: "input",
-            name: "usage",
-            message: "Please enter the usege of your project (ie: node index.js): "
-        },
-        {
             type: "list",
             name: "license",
             message: "Please select the license used for this project: ",
@@ -49,7 +34,31 @@ const userInput = () => {
                 "MPL-2.0",
             ],
         },
-        
+        {
+            type: "input",
+            name: "description",
+            message: "Please enter the description of your project: "
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "Please enter the instructions for installation (ie. npm install): "
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Please enter the usage information (ie: node index.js): "
+        },
+        {
+            type: "input",
+            name: "contribution",
+            message: "Please enter the contribution guidelines: "
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "Please enter the test instructions: "
+        },
     ]);
 };
 
