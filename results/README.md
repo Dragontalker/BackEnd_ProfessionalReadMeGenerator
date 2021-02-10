@@ -1,8 +1,8 @@
-# readme generator
+# Professiona README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  Generating markdown file.
+  A node.js application that takes user input and produce a professional markdown file.
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -18,11 +18,13 @@
   In console, type: "node index.js" to initiate the application.
 
   ## Credits
-  Author: Richard Yang, visit GitHub Page at https://github.com/dragontalker
+  Author: Richard Yang 
+  For additional questions, contact me at richard.yang.tong@gmail.com
+  Or visit my GitHub page at https://github.com/dragontalker
 
-  ## Contribution Rules
-  Use pull request
+  ## Contribution
+  You could write in issue or open pull request.
 
-  ## Test Instructions
-  check results folder.
+  ## Test
+  Check the results folder for the printed markdown file.
   
