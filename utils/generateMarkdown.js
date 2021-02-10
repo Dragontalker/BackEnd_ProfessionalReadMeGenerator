@@ -61,10 +61,7 @@ const generateMarkdown = (data) => {
   Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
 
   ## Badges
-  ${renderLicenseSection("Apache-2.0")}
-  ${renderLicenseSection("ISC")}
-  ${renderLicenseSection("MIT")}
-  ${renderLicenseSection("MPL-2.0")}
+  ${renderLicenseSection(data.license)}
 `;
 }
 

@@ -29,6 +29,17 @@ const userInput = () => {
         message: "Please enter the usege of your project: "
       },
       {
+        type: "list",
+        name: "license",
+        message: "Please select the license used for this project: ",
+        choices: [
+            "Apache-2.0",
+            "ISC",
+            "MIT",
+            "MPL-2.0",
+        ],
+      },
+      {
         type: "input",
         name: "userName",
         message: "Please enter contributor's name: "
