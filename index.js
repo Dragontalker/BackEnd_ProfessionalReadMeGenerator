@@ -28,7 +28,7 @@ const userInput = () => {
 
 const init = () => {
     userInput()
-      .then((answers) => writeFileAsync('./results/result.md', generateMarkdown(answers)))
+      .then((answers) => writeFileAsync('./results/README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully created your professional README file!'))
       .catch((err) => console.error(err));
 };
