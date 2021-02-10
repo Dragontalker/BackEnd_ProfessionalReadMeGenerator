@@ -1,26 +1,28 @@
-# a
-  
+# README test
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   ## Description
-  a
+  Generating a professional readme markdown file with customized information.
 
   ## Table of Contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
+  * [Installation Instructions](#Installation Instructions)
+  * [Usage Information](#Usage Infromation)
   * [Credits](#Credits)
-  * [License](#License)
-  * [Badges](#Badges)
-  * [Features](#Features)
-  * [Contributing](#Contributing)
-  * [Test](#Test)
+  * [Contribution Rules](#Contribution Rules)
+  * [Test Instructions](#Test Instructions)
   
-  ## Installation
-  In console, type: "a" to install the required modules.
+  ## Installation Instructions
+  In console, type: "npm install" to install the required modules.
 
-  ## Usage
-  a
+  ## Usage Information
+  node index.js
 
   ## Credits
-  Author: a, visit GitHub Page at https://github.com/a
+  Author: Richard Yang, visit GitHub Page at https://github.com/dragontalker
 
-  ## Badges
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Contribution Rules
+  Use pull request
+
+  ## Test Instructions
+  Check the output in results folder.
+  

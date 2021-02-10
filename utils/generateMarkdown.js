@@ -47,24 +47,26 @@ const generateMarkdown = (data) => {
   ${data.description}
 
   ## Table of Contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
+  * [Installation Instructions](#Installation Instructions)
+  * [Usage Information](#Usage Infromation)
   * [Credits](#Credits)
-  * [License](#License)
-  * [Badges](#Badges)
-  * [Features](#Features)
-  * [Contributing](#Contributing)
-  * [Test](#Test)
+  * [Contribution Rules](#Contribution Rules)
+  * [Test Instructions](#Test Instructions)
   
-  ## Installation
+  ## Installation Instructions
   In console, type: "${data.installation}" to install the required modules.
 
-  ## Usage
+  ## Usage Information
   ${data.usage}
 
   ## Credits
   Author: ${data.userName}, visit GitHub Page at https://github.com/${data.userGit}
-  
+
+  ## Contribution Rules
+  ${data.contribution}
+
+  ## Test Instructions
+  ${data.test}
   
 `;
 }
